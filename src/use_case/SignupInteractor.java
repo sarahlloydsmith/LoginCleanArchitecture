@@ -1,6 +1,6 @@
 package use_case;
 
-import data_access.UserSignupDataAccessInterface;
+import interface_adapter.UserSignupDataAccessInterface;
 import entity.User;
 import entity.UserFactory;
 

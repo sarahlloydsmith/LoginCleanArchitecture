@@ -1,7 +1,7 @@
 package app;
 
 import data_access.FileUserDataAccessObject;
-import data_access.UserSignupDataAccessInterface;
+import interface_adapter.UserSignupDataAccessInterface;
 import entity.CommonUserFactory;
 import entity.UserFactory;
 import interface_adapter.*;
@@ -42,5 +42,9 @@ public class SignupUseCaseFactory {
                 userDataAccessObject, signupOutputBoundary, userFactory);
 
         return new SignupController(userSignupInteractor);
+    }
+
+    public static void main(String[] args) {
+
     }
 }
